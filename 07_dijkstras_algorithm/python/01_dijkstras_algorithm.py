@@ -13,6 +13,7 @@ graph["b"]["fin"] = 5
 
 graph["fin"] = {}
 
+
 # the costs table
 infinity = float("inf")
 costs = {}
@@ -41,8 +42,10 @@ def find_lowest_cost_node(costs):
             lowest_cost_node = node
     return lowest_cost_node
 
+
 # Find the lowest-cost node that you haven't processed yet.
 node = find_lowest_cost_node(costs)
+
 # If you've processed all the nodes, this while loop is done.
 while node is not None:
     cost = costs[node]
