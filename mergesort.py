@@ -36,5 +36,3 @@ arr = [12, 11, 13, 5, 6, 7]
 
 mergeSort(arr)
 print(arr)
-
-# This code is contributed by Mayank Khanna
